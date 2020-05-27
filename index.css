@@ -1,0 +1,400 @@
+body {
+  font-family: Arial, "Times New Roman", sans-serif;
+  font-size: 16px;
+  background-color: #f2f1ef;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+#toancuc {
+    
+    margin: 0 auto;
+    width: 1350px;
+    
+    
+}
+
+/*==Reset CSS==*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+/*==Style cho menu===*/
+#menu{
+    
+    background-color: blue;
+    z-index: 100;
+}
+#menu ul {
+  list-style-type: none;
+  background-color: blue;
+}
+#menu li {
+    float: left;
+    width: 120px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    background-color: blue;
+}
+#menu a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+#menu a:hover {
+  background: #F1F1F1;
+  color: #333;
+}
+
+#login li {
+    float: right;
+    width: 75px;
+    text-align: center;
+    line-height: 35px;
+    margin-left: 5px;
+    background-color:cadetblue;
+}
+
+#login a {
+    text-decoration: none;
+    
+    color: white;
+}
+#gioh {
+    padding-left: 5px;
+    padding-right: 5px;
+    float: right;
+    right: 15px;
+    background-color: white;
+    position: relative;
+}
+
+h1 {
+    font-size: 60px;
+    color: red;
+    position:relative;
+    top: -100px;
+    left: 280px;
+    
+}
+
+#search {
+    float: left;
+    
+    margin-left: 10px;
+
+}
+#timnhap {
+  width: 350px;
+  height: 30px;
+}
+#nuttim {
+  width: 60px;
+  height: 33px;
+}
+#giohang{
+    left: 50px;
+    padding: 25px;
+    width: 1150px;
+    background-color:azure;
+    position:relative;
+}
+#thongtingiohang{
+    left: 200px;
+    position: relative;
+}
+#thongtingiohang a {
+  text-decoration: none;
+}
+#thongtingiohang h2{
+    left: 200px;
+    position:relative;
+}
+.gioten, .giogia , .giosl{
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: 0.5px solid black;
+}
+.gioxoa{
+    padding-left: 20px;
+}
+#thanhtoangiohang{
+    color: white;
+    width: 100px;
+    height: 50px;
+    background-color: #e5101d;
+}
+#menu2{
+    float: left;
+}
+#menu2 ul {
+  list-style-type: none;
+    background-color: green;
+}
+#menu2 li {
+    width: 120px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    background-color: green;
+}
+#menu2 a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+
+#dt{
+    width: 150px;
+    background-color: yellow;
+}
+#pk{
+    width: 150px;
+    background-color: yellow;
+}
+#noidungchinh{
+    margin-left: 200px;
+    
+}
+
+#showContainer {
+/* Main wrapper for all images */
+width: 100%;
+padding: 0;
+margin: 0 auto;
+overflow: hidden;
+position: relative;
+}
+.navButton {
+/* Make buttons look nice */
+cursor: pointer;
+float: left;
+width: 25px;
+height: 22px;
+padding: 10px;
+margin-right: 5px;
+overflow: hidden;
+text-align: center;
+color: white;
+font-weight: bold;
+font-size: 18px;
+background: #000000;
+opacity: 0.65;
+user-select: none;
+}
+.navButton:hover {
+opacity: 1;
+}
+#previous{
+    position: inherit;
+    top: 100px;
+}
+#next{
+    position: inherit;
+    right: 0px;
+    top: 100px;
+}
+.imageContainer:not(:first-child) {
+/* Hide all images except the first */
+display: none;
+} 
+
+.spnb a{
+    text-decoration: none;
+    color: black;
+}
+.spnb{
+    width: 250px;
+    margin-left: 5px;
+    margin-right: 5px;
+    float: left;
+    height: 370px;
+    background-color: white;
+} 
+.sp a{
+    text-decoration: none;
+    color: black;
+}
+.sp{
+    width: 270px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    float: left;
+    height: 390px;
+    background-color: white;
+}
+#sanpham{
+    position:relative;
+    left: 100px;
+    
+}
+
+#hinh{
+    
+    border: 1px solid black;
+    float: left;
+}
+.hinhsp{
+    float: left;
+}
+#thongtin{
+    float: left;
+    left: 50px;
+    position: relative;
+}
+.thongtinsp{
+    float: left;
+}
+#muasl{
+    width: 3.6rem;
+}
+#gio{
+    color: white;
+    width: 150px;
+    height: 50px;
+    top: 50px;
+    position:relative;
+    background-color: #f7941d;
+}
+#mua{
+    color: white;
+    left: 20px;
+    width: 150px;
+    height: 50px;
+    top: 50px;
+    position:relative;
+    background-color: #e5101d;
+}
+#mota{
+    width: 1000px;
+    padding: 10px;
+    clear: left;
+    border: 1px solid black;
+    top: 50px;
+    position:relative;
+}
+#thanhtoan{
+    left: 50px;
+    padding: 25px;
+    width: 1150px;
+    background-color: white;
+    position:relative;
+}
+
+#thongtindiachi{
+    float: left;
+    width: 50%;
+}
+
+#chucnang{
+    padding-right: 80px;
+    border-right: 0.2px solid black;
+    float: left;
+}
+
+#chucnang ul {
+  list-style-type: none;
+}
+#chucnang li {
+    height: 35px;
+    
+    line-height: 35px;
+}
+#chucnang a {
+  text-decoration: none;
+  display: block;
+}
+#chucnang a:hover {
+  background: #F1F1F1;
+  color: #333;
+}
+
+#tieudethanhtoan{
+    padding: 10px;
+    background-color: cadetblue;
+}
+#thongtinsanpham{
+    float: left;
+    width: 50%;
+}
+#thongtintk{
+    float: left;
+    padding-left: 25px;
+}
+#tongtien{
+    left: -50px;
+    position: relative;
+}
+#gichu-thanhtoan{
+    clear: left;
+    top: 50px;
+    left: 280px;
+    position: relative;
+}
+#ghichu{
+    height: 130px;
+    width: 400px;
+}
+#nutthanhtoan{
+    color: white;
+    height: 60px;
+    width: 140px;
+    left: 150px;
+    top: 10px;
+    position: relative;
+    background-color: #e5101d;
+}
+#tk{
+    padding: 25px;
+    background-color:azure;
+}
+#dangki{
+    padding: 25px;
+    background-color:white;
+}
+#dk{
+    
+    margin-left: 150px;
+}
+#nutdk{
+    margin-left: 150px;
+    color: white;
+    width: 70px;
+    height: 30px;
+    background-color: #e5101d;  
+}
+#dctk{
+    width: 300px;
+}
+#tttk{
+    margin-left: 100px; 
+}
+#tttk tr{
+    margin-top: 100px;
+}
+#capnhat{
+    color: white;
+    height: 30px;
+    width: 80px;
+    left: 150px;
+    top: 10px;
+    position: relative;
+    background-color: #e5101d;
+}
+#chucnang2 ul {
+  list-style-type: none;
+}
+#chucnang2 li {
+    float: left;
+    padding-right: 50px;
+
+}
+#chucnang2 a {
+  text-decoration: none;
+ 
+}
